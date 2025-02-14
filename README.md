@@ -180,6 +180,10 @@ Windows下可以使用`TexMaker`,`TexStudio`等IDE，选中`xelatex`编译器进
 
 本模版是由诸多感兴趣的同学一起维护的开源项目，我们非常欢迎问题反馈和新的贡献者！
 
+多文献引用需要在cls文件中插入包：
+%多篇参考文献引用
+\RequirePackage[square,numbers,sort&compress]{natbib}
+
 ## 致谢
 Shaowen Xiong, CSU;
 
